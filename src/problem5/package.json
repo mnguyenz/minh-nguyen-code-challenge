@@ -1,0 +1,30 @@
+{
+  "name": "q5",
+  "version": "1.0.0",
+  "description": "99Tech Question 5",
+  "license": "MIT",
+  "author": "Minh Nguyen",
+  "type": "commonjs",
+  "main": "main.ts",
+  "scripts": {
+    "start:dev": "node --watch -r ts-node/register src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "pg-promise": "^11.10.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
